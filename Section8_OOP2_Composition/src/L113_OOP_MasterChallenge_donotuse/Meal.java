@@ -1,4 +1,4 @@
-package L113_OOP_MasterChallenge;
+package L113_OOP_MasterChallenge_donotuse;
 
 import java.util.Scanner;
 
@@ -12,7 +12,6 @@ public class Meal {
 
 
     public Meal() {
-        showMenu();
         orderFood();
     }
 
@@ -29,14 +28,23 @@ public class Meal {
 
         public String orderFood() {
 
-            Scanner scanner = new Scanner(System.in);  // Create a Scanner object
             System.out.println("Welcome to In-N-Out!");
             showMenu();
+            int order1 = 0;
 
-            String newOrder = System.console().readLine("What can I get started for you today? \n");
-            String order = scanner.nextLine();
+
+            Scanner scanner = new Scanner(System.in);
+
+//            System.out.println("What can I get started for you today?");
+//            try {
+//                order1 = scanner.nextInt();
+//                System.out.println("Okay, so you want " + order1 + ".");
+////            } catch (order1 > 0 || order1 <= 3){
+//                System.out.println("try again!");
+//            }
             return "Thanks for your order!";
-        };
+
+        }
 
 
     //getters
