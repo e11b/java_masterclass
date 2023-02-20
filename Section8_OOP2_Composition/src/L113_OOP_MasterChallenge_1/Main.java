@@ -20,11 +20,18 @@ public class Main {
 //        regularMeal.setDrinkSize("LARGE");
 //        regularMeal.printItemizedList();
 
-        MealOrder secondMeal = new MealOrder("turkey", "7-up",
+//        MealOrder secondMeal = new MealOrder("turkey", "7-up",
+//                "chili");
+//        secondMeal.addBurgerToppings("lettuce", "cheese", "mayo");
+//        secondMeal.setDrinkSize("SMALL");
+//        secondMeal.printItemizedList();
+
+        MealOrder deluxeMeal = new MealOrder("deluxe", "7-up",
                 "chili");
-        secondMeal.addBurgerToppings("lettuce", "cheese", "mayo");
-        secondMeal.setDrinkSize("SMALL");
-        secondMeal.printItemizedList();
+        deluxeMeal.addBurgerToppings("AVOCADO", "BACON", "LETTUCE",
+                "CHEESE", "MAYO");
+        deluxeMeal.setDrinkSize("small");
+        deluxeMeal.printItemizedList();
 
 
 
