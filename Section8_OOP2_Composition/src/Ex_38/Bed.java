@@ -1,6 +1,6 @@
 package Ex_38;
 
-public class Bed {
+public class Bed{
 
     private String style;
     private int pillows;
@@ -17,11 +17,7 @@ public class Bed {
     }
 
     public void make(){
-        System.out.println("Bed -> Making | ");
-    }
-
-    public String getStyle() {
-        return style;
+        System.out.println("Bed is being made");
     }
 
     public int getPillows() {
@@ -38,5 +34,9 @@ public class Bed {
 
     public int getQuilt() {
         return quilt;
+    }
+
+    public String getStyle() {
+        return style;
     }
 }

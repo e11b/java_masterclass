@@ -13,7 +13,7 @@ public class Lamp {
     }
 
     public void turnOn(){
-        System.out.println("Lamp -> Turning on");
+        System.out.println("Lamp is being turned on.");
     }
 
     public String getStyle(){
@@ -21,7 +21,7 @@ public class Lamp {
     }
 
     public boolean isBattery(){
-        return battery;
+        return isBattery();
     }
 
     public int getGlobRating(){
@@ -29,7 +29,3 @@ public class Lamp {
     }
 
 }
-
-
-
-
